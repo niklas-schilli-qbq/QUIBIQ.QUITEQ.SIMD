@@ -6,6 +6,7 @@ namespace QUIBIQ.QUIFLOW.SIMD.Benchmarks
     {
         static void Main(string[] args)
         {
+            BenchmarkRunner.Run<GreaterThanBenchmark_OrderedValues>();
             BenchmarkRunner.Run<GreaterThanBenchmark_RandomValues>();
         }
     }
